@@ -25,12 +25,12 @@
     <!-- TODO: Disable the following configuration for production. -->
     <bool name="config_enable_usability_study_mode_option">true</bool>
     <!-- Whether or not Popup on key press is enabled by default -->
-    <bool name="config_default_key_preview_popup">true</bool>
+    <bool name="config_default_key_preview_popup">false</bool>
     <!-- Default value for next word prediction: after entering a word and a space only, should we look
          at input history to suggest a hopefully helpful suggestions for the next word? -->
     <bool name="config_default_next_word_prediction">true</bool>
     <bool name="config_default_sound_enabled">false</bool>
-    <bool name="config_default_vibration_enabled">true</bool>
+    <bool name="config_default_vibration_enabled">false</bool>
     <integer name="config_max_vibration_duration">100</integer> <!-- milliseconds -->
     <integer name="config_delay_update_suggestions">100</integer>
     <integer name="config_delay_update_old_suggestions">300</integer>
